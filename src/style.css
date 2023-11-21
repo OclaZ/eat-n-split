@@ -1,0 +1,117 @@
+.app {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li.selected {
+    background-color: #e5f7ff;
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-left: auto;
+  }
+  
+  .form-add-friend,
+  .form-split-bill {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button.button:hover {
+    background-color: #0056b3;
+  }
+  
+  .red {
+    color: #ff6347;
+  }
+  
+  .green {
+    color: #28a745;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-split-bill label,
+  .form-split-bill select,
+  .form-split-bill input {
+    margin-bottom: 10px;
+  }
+  
+  .form-split-bill select {
+    width: 100%;
+  }
+  
+  .form-split-bill input[type="text"] {
+    width: calc(100% - 28px);
+  }
+  
+  .form-split-bill input[type="text"]:disabled {
+    background-color: #f4f4f4;
+    cursor: not-allowed;
+  }
+  
+  .form-split-bill .button {
+    width: 100%;
+  }
+  
+  .form-split-bill .button:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
